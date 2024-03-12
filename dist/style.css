@@ -6,6 +6,10 @@ body{
     align-items: center;
 }
 #copyrightHeitor{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
     justify-content: center;
     align-items: center;
     text-align: center;
