@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The To Do List</title>
 </head>
 <body>
+    <div class="app-title">
+        <h1>The To Do List</h1>
+    </div>
     <div>
-       <input type="text" id="input" placeholder="My new todo">
-       <button id="console">+</button>
+    <form id="inputTodo" >
+       <p><input type="text" id="input" placeholder="My new todo">
+       <span><button id="console" type="submit">+</button></span></p>
+    </form>
     </div>
     <div id="todosContainer">
 
+    </div>
+    <div id="copyrightHeitor">
+      <h2>Heitor Henrique 2024</h2>  
     </div>
     <script src="main.js"></script>
 </body>

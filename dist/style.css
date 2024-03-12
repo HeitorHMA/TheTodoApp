@@ -1,0 +1,58 @@
+body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+#copyrightHeitor{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.app-title{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+}
+#inputTodo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#todosContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.todos{
+     display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+#input{
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    align-items: center;
+}
+#console{
+    width:30px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: large;
+    font-weight: 900;
+    color: white;
+    background-color: green;
+    position: absolute;
+    aspect-ratio: 1;
+}

@@ -1,7 +1,7 @@
 function newTodoButton(){
     const consoleButton = document.querySelector("#console");
     consoleButton.addEventListener("click",addTodo);
-    
+
     function addTodo(){
         let newData = document.getElementById('input').value;
     
