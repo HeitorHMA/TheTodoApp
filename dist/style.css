@@ -30,12 +30,12 @@ body{
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    justify-content: center;
 }
 
 .todos{
-     display: flex;
-    flex-direction: row;
-    width: 100px;
+    display: flex;
+    min-width: 200px;
     height: 50px;
     align-items: center;
     justify-content: space-between;
@@ -49,8 +49,8 @@ body{
     align-items: center;
 }
 #console{
-    width:30px;
-    height: 30px;
+    width:35px;
+    height: 35px;
     border-radius: 25px;
     border: none;
     font-size: large;
@@ -59,4 +59,8 @@ body{
     background-color: green;
     position: absolute;
     aspect-ratio: 1;
+}
+.checked{
+    color: cadetblue;
+    text-decoration: line-through;
 }
